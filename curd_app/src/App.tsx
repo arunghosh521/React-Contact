@@ -1,10 +1,13 @@
+import Footer from "./components/layout/Footer"
+import Header from "./components/layout/Header"
 
 function App() {
 
 
   return (
     <>
-    <div>Hello World </div>
+    <Header title = 'Contact App' />
+    <Footer /> 
     </>
   )
 }
