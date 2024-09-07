@@ -1,13 +1,13 @@
-import Footer from "./components/layout/Footer"
-import Header from "./components/layout/Header"
+import ContactIndex from "./components/contactPages/ContactIndex"
 
 function App() {
 
 
   return (
     <>
-    <Header title = 'Contact App' />
-    <Footer /> 
+    <ContactIndex />
+   
+   
     </>
   )
 }
